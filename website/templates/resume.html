@@ -1,0 +1,16 @@
+{% extends 'base.html' %} {% block title %}Resume-Pawan Kumar{% endblock %} {%
+block content %}
+<div class="archive" style="padding-right: 0px; overflow: scroll">
+  <iframe
+    src="https://docs.google.com/document/d/e/2PACX-1vR86g1LgYuNsVIl9QhQQSMbG3vbZqoG0CYhXykLcrFtil5C9Owsy8f0jIcSEf8_qw/pub?embedded=true"
+    style="background-color: white; height: 900px; width: 800px"
+  ></iframe>
+  <br />
+  <form action='/down'>
+     <input type='submit' class="btn btn--primary btn--small" value='Download'>
+</form>
+  
+</div>
+{% endblock %}
+
+
